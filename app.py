@@ -235,10 +235,9 @@ def main():
     
     # Sidebar
     with st.sidebar:
-        st.markdown("### 📊 About")
-        st.info("""
-        This application uses a **Logistic Regression** model trained on emotional text data to predict emotions from your input.
+        st.image("https://cdn-icons-png.flaticon.com/512/4712/4712109.png", width=100)
         
+        st.info("""
         **Supported Emotions:**
         - 😢 Sadness
         - 😠 Anger
@@ -277,7 +276,6 @@ def main():
     col1, col2 = st.columns([2, 1])
     
     with col1:
-        st.markdown('<div class="main-container">', unsafe_allow_html=True)
         
         # Text input
         user_text = st.text_area(
@@ -314,7 +312,6 @@ def main():
         st.markdown('</div>', unsafe_allow_html=True)
     
     with col2:
-        st.markdown('<div class="main-container">', unsafe_allow_html=True)
         st.markdown("### 💡 Try These Examples")
         
         examples = [
