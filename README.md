@@ -216,7 +216,7 @@ This project is open source and available under the MIT License.
 
 **Om Gholap**
 
-- GitHub: [@omgholap11](https://github.com/omgholap11)
+- GitHub: [Om Gholap](https://github.com/omgholap11)
 - Email: omgholap051@gmail.com
 
 ---
